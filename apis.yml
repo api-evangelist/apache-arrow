@@ -1,0 +1,47 @@
+aid: apache-arrow
+name: Apache Arrow
+description: >-
+  Apache Arrow is a cross-language development platform for in-memory data that specifies a standardized language-independent columnar memory format. It provides computational libraries and zero-copy streaming messaging and interprocess communication through the Flight RPC framework.
+type: Index
+position: Consumer
+access: 3rd-Party
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Data
+  - Columnar Format
+  - In-Memory
+  - IPC
+  - Analytics
+created: '2026-03-16'
+modified: '2026-03-16'
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/apache-arrow/refs/heads/main/apis.yml
+specificationVersion: '0.19'
+apis:
+  - aid: apache-arrow:apache-arrow-flight-rpc
+    name: Apache Arrow Flight RPC
+    description: >-
+      Arrow Flight is a high-performance RPC framework built on gRPC for transferring large datasets using the Arrow columnar format, with client libraries in C++, Java, Python, R, Go, and Rust.
+    humanURL: https://arrow.apache.org/docs/format/Flight.html
+    tags:
+      - RPC
+      - Data Transfer
+      - gRPC
+    properties:
+      - type: Documentation
+        url: https://arrow.apache.org/docs/format/Flight.html
+  - aid: apache-arrow:apache-arrow-libraries
+    name: Apache Arrow Libraries
+    description: >-
+      Arrow provides native libraries in C++, Java, Python (PyArrow), R, Go, Rust, JavaScript, C#, Ruby, and Julia for reading, writing, and processing columnar data in the Arrow format.
+    humanURL: https://arrow.apache.org/docs/
+    tags:
+      - SDK
+      - Libraries
+      - Data Processing
+    properties:
+      - type: Documentation
+        url: https://arrow.apache.org/docs/
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
