@@ -7,11 +7,11 @@ position: Consumer
 access: 3rd-Party
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Data
+  - Analytics
   - Columnar Format
+  - Data
   - In-Memory
   - IPC
-  - Analytics
 created: '2026-03-16'
 modified: '2026-03-16'
 url: >-
@@ -24,9 +24,9 @@ apis:
       Arrow Flight is a high-performance RPC framework built on gRPC for transferring large datasets using the Arrow columnar format, with client libraries in C++, Java, Python, R, Go, and Rust.
     humanURL: https://arrow.apache.org/docs/format/Flight.html
     tags:
-      - RPC
       - Data Transfer
       - gRPC
+      - RPC
     properties:
       - type: Documentation
         url: https://arrow.apache.org/docs/format/Flight.html
@@ -36,9 +36,9 @@ apis:
       Arrow provides native libraries in C++, Java, Python (PyArrow), R, Go, Rust, JavaScript, C#, Ruby, and Julia for reading, writing, and processing columnar data in the Arrow format.
     humanURL: https://arrow.apache.org/docs/
     tags:
-      - SDK
-      - Libraries
       - Data Processing
+      - Libraries
+      - SDK
     properties:
       - type: Documentation
         url: https://arrow.apache.org/docs/
