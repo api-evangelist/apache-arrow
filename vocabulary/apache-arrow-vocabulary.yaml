@@ -1,0 +1,150 @@
+vocabulary: 1.0.0
+info:
+  provider: Apache Arrow
+  description: Domain vocabulary for Apache Arrow covering columnar data 
+    formats, Flight RPC operations, language SDKs, and analytics patterns.
+  created: '2026-04-19'
+  modified: '2026-04-19'
+operational:
+  apis:
+  - name: Arrow Flight RPC
+    namespace: arrow-flight
+    version: 17.0.0
+    status: active
+  - name: Arrow Flight SQL
+    namespace: arrow-flight-sql
+    version: 17.0.0
+    status: active
+  resources:
+  - name: flights
+    api: arrow-flight
+    actions:
+    - list
+    - get
+    - do-put
+    - do-exchange
+  - name: schemas
+    api: arrow-flight
+    actions:
+    - get
+  - name: queries
+    api: arrow-flight-sql
+    actions:
+    - execute
+    - prepare
+    - get-result
+  - name: tables
+    api: arrow-flight-sql
+    actions:
+    - list
+    - get-schema
+  - name: catalogs
+    api: arrow-flight-sql
+    actions:
+    - list
+  - name: schemas_sql
+    api: arrow-flight-sql
+    actions:
+    - list
+  actions:
+  - name: list
+    pattern: read
+  - name: get
+    pattern: read
+  - name: execute
+    pattern: query
+  - name: prepare
+    pattern: query
+  - name: put
+    pattern: write
+  - name: exchange
+    pattern: bidirectional
+  schemas:
+    core:
+    - RecordBatch
+    - Schema
+    - Field
+    - Table
+    - ChunkedArray
+    - Array
+    flight:
+    - FlightInfo
+    - FlightDescriptor
+    - FlightEndpoint
+    - Ticket
+    - FlightData
+    types:
+    - DataType
+    - Int8
+    - Int16
+    - Int32
+    - Int64
+    - Float32
+    - Float64
+    - Utf8
+    - Binary
+    - Timestamp
+    - Date
+    - Time
+    - Duration
+    - List
+    - Struct
+    - Map
+    - Union
+  parameters:
+    identifiers:
+    - ticket
+    - descriptor
+    - schema_name
+    - table_name
+    - catalog_name
+    filters:
+    - type_code
+    - is_nullable
+  enums:
+    fileFormats:
+    - parquet
+    - csv
+    - json
+    - orc
+    - feather
+    - ipc
+    dataTypes:
+    - int8
+    - int16
+    - int32
+    - int64
+    - float32
+    - float64
+    - utf8
+    - binary
+    - bool
+    - timestamp
+    - date32
+    - date64
+    - list
+    - struct
+    - map
+  authentication:
+    schemes: []
+capability:
+  workflows: []
+  personas:
+  - id: data-engineer
+    name: Data Engineer
+    description: Engineers building data pipelines using Arrow for 
+      high-throughput data transfer.
+    workflows: []
+  - id: data-scientist
+    name: Data Scientist
+    description: Scientists using PyArrow and Arrow for efficient data 
+      manipulation and analytics.
+    workflows: []
+  domains:
+  - In-Memory Analytics
+  - Data Transfer
+  - Columnar Storage
+  - Machine Learning
+  namespaces: []
+  binds: []
+crossReference: []
