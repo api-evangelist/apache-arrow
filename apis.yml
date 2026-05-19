@@ -65,6 +65,8 @@ apis:
       - type: Specification
         url: https://arrow.apache.org/docs/format/Versioning.html
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/apache-arrow
   - type: GitHubOrganization
     url: https://github.com/apache
   - type: GitHubRepository
