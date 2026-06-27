@@ -89,19 +89,19 @@ common:
     url: https://www.apache.org/licenses/
   - type: ChangeLog
     url: https://arrow.apache.org/blog/
-  - type: SDK
+  - type: SDKs
     url: https://pypi.org/project/pyarrow/
     title: PyArrow (Python)
-  - type: SDK
+  - type: SDKs
     url: https://search.maven.org/artifact/org.apache.arrow/arrow-vector
     title: Apache Arrow Java (Maven)
-  - type: SDK
+  - type: SDKs
     url: https://crates.io/crates/arrow
     title: Arrow-rs (Rust, crates.io)
-  - type: SDK
+  - type: SDKs
     url: https://pkg.go.dev/github.com/apache/arrow/go/v15
     title: Arrow Go
-  - type: SDK
+  - type: SDKs
     url: https://www.npmjs.com/package/apache-arrow
     title: Apache Arrow JavaScript (npm)
   - type: Features
