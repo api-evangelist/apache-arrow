@@ -65,6 +65,10 @@ apis:
       - type: Specification
         url: https://arrow.apache.org/docs/format/Versioning.html
 common:
+  - type: VulnerabilityDisclosure
+    url: security/apache-arrow-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/apache-arrow-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/apache-arrow
   - type: GitHubOrganization
@@ -158,6 +162,8 @@ common:
         description: Delta Lake integrates with Arrow for reading and writing Delta table data in columnar format.
       - name: Ray
         description: Ray distributed computing framework uses Arrow for shared-memory object storage between workers.
+  - url: https://arrow.apache.org/feed.xml
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
