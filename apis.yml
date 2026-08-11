@@ -77,6 +77,17 @@ apis:
       - type: Specification
         url: https://arrow.apache.org/docs/format/Versioning.html
 common:
+  - type: IssueTracker
+    url: https://github.com/apache/arrow/issues
+  - type: Releases
+    url: https://github.com/apache/arrow/releases
+  - type: CodeOfConduct
+    url: https://github.com/apache/arrow/blob/main/CODE_OF_CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/apache/arrow/blob/main/.github/CONTRIBUTING.md
+  - type: License
+    name: Apache-2.0
+    url: https://github.com/apache/arrow/blob/main/LICENSE
   - type: VulnerabilityDisclosure
     url: security/apache-arrow-vulnerability-disclosure.yml
   - type: DomainSecurity
