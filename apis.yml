@@ -3,6 +3,19 @@ name: Apache Arrow
 description: >-
   Apache Arrow is a cross-language development platform for in-memory analytics developed by the Apache Software Foundation. It specifies a standardized, language-independent columnar memory format for flat and nested data, organized for efficient analytic operations on modern hardware including CPUs and GPUs. Arrow provides computational libraries in C++, Java, Python (PyArrow), R, Go, Rust, JavaScript, C#, Ruby, Julia, and Swift, along with zero-copy streaming messaging via IPC and a high-performance data transfer framework called Arrow Flight (built on gRPC).
 type: Index
+deliveryModel:
+  model: open-core
+  license: Apache-2.0
+  open_source: true
+  commercial: true
+  callable_host: false
+  label: Open core · an OSS project plus a commercial hosted product
+  confidence: high
+  source:
+  - license
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
