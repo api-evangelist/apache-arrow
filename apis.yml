@@ -100,6 +100,8 @@ apis:
       - type: Specification
         url: https://arrow.apache.org/docs/format/Versioning.html
 common:
+  - type: Website
+    url: https://www.apache.org/
   - type: IssueTracker
     url: https://github.com/apache/arrow/issues
   - type: Releases
