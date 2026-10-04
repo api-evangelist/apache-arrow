@@ -39,7 +39,7 @@ tags:
   - gRPC
   - In-Memory
   - IPC
-  - Open-Source
+  - Open Source
   - Python
 tags_raw:
   - Analytics
@@ -51,6 +51,7 @@ tags_raw:
   - IPC
   - Open Source
   - Python
+  - Open-Source
 created: '2026-03-16'
 modified: '2026-04-19'
 url: >-
@@ -77,6 +78,10 @@ apis:
       Arrow provides native libraries in C++, Java, Python (PyArrow), R, Go, Rust, JavaScript, C#, Ruby, Julia, and Swift for reading, writing, and processing columnar data in the Arrow in-memory format. Libraries enable zero-copy data sharing between processes and language runtimes.
     humanURL: https://arrow.apache.org/docs/
     tags:
+      - Data Processing
+      - Library
+      - SDK
+    tags_raw:
       - Data Processing
       - Libraries
       - SDK
