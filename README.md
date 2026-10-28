@@ -1,4 +1,4 @@
-# Apache Arrow (apache-arrow)
+# Apache Arrow
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,127 +66,115 @@
 
 Apache Arrow is a cross-language development platform for in-memory analytics developed by the Apache Software Foundation. It specifies a standardized, language-independent columnar memory format for flat and nested data, organized for efficient analytic operations on modern hardware including CPUs and GPUs. Arrow provides computational libraries in C++, Java, Python (PyArrow), R, Go, Rust, JavaScript, C#, Ruby, Julia, and Swift, along with zero-copy streaming messaging via IPC and a high-performance data transfer framework called Arrow Flight (built on gRPC).
 
-**URL:** [https://arrow.apache.org/](https://arrow.apache.org/)
+**Areas:** Analytics · Apache · Columnar Format · Data · gRPC · In-Memory · IPC · Open Source · Python
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Apache Arrow on APIs.io
 
-## Tags
+Everything profiled for Apache Arrow is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/apache-arrow/](https://apis.io/providers/apache-arrow/)** — or go straight to one of the APIs or properties below.
 
- - Analytics, Apache, Columnar Format, Data, gRPC, In-Memory, IPC, Open Source, Python
+### APIs (3)
 
-## Timestamps
+- [Apache Arrow Flight RPC](https://apis.io/apis/apache-arrow/apache-arrow-flight-rpc/) — Arrow Flight is a high-performance RPC framework built on gRPC for transferring large datasets using the Arrow columnar format. It enables efficient bulk…
+- [Apache Arrow Libraries](https://apis.io/apis/apache-arrow/apache-arrow-libraries/) — Arrow provides native libraries in C++, Java, Python (PyArrow), R, Go, Rust, JavaScript, C#, Ruby, Julia, and Swift for reading, writing, and processing…
+- [Apache Arrow Format Specification](https://apis.io/apis/apache-arrow/apache-arrow-format/) — The Apache Arrow columnar format specification defines the binary layout for in-memory columnar data, including the IPC format for streaming and file-based…
 
-- **Created:** 2026-03-16
-- **Modified:** 2026-04-19
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### Apache Arrow Flight RPC
-Arrow Flight is a high-performance RPC framework built on gRPC for transferring large datasets using the Arrow columnar format. Flight SQL extends Flight with a SQL-over-Arrow interface for database query execution.
+#### Vocabulary (1)
 
-**Human URL:** [https://arrow.apache.org/docs/format/Flight.html](https://arrow.apache.org/docs/format/Flight.html)
+The provider's domain terms, defined.
 
-#### Tags
+- [Apache Arrow Vocabulary](https://apis.io/vocabularies/apache-arrow/apache-arrow-vocabulary/)
 
- - Data Transfer, gRPC, RPC
+#### Security (2)
 
-#### Properties
+Authentication, trust centre, and vulnerability disclosure.
 
-- [Documentation](https://arrow.apache.org/docs/format/Flight.html)
-- [APIReference](https://arrow.apache.org/docs/format/FlightSql.html)
+- [Apache Arrow Domain Security](https://apis.io/security/apache-arrow/apache-arrow-domain-security/)
+- [Apache Arrow Vulnerability Disclosure](https://apis.io/security/apache-arrow/apache-arrow-vulnerability-disclosure/)
 
-### Apache Arrow Libraries
-Arrow provides native libraries in C++, Java, Python (PyArrow), R, Go, Rust, JavaScript, C#, Ruby, Julia, and Swift for reading, writing, and processing columnar data in the Arrow in-memory format.
+#### Plans and pricing (1)
 
-**Human URL:** [https://arrow.apache.org/docs/](https://arrow.apache.org/docs/)
+Published plans, tiers and prices.
 
-#### Tags
+- [Apache Arrow Plans Pricing](https://apis.io/plans/apache-arrow/apache-arrow-plans-pricing/)
 
- - Data Processing, Libraries, SDK
+#### Rate limits (1)
 
-#### Properties
+Published request limits.
 
-- [Documentation](https://arrow.apache.org/docs/)
-- [APIReference](https://arrow.apache.org/docs/python/api.html)
+- [Apache Arrow Rate Limits](https://apis.io/rate-limits/apache-arrow/apache-arrow-rate-limits/)
 
-### Apache Arrow Format Specification
-The Apache Arrow columnar format specification defines the binary layout for in-memory columnar data, including the IPC format for streaming and file-based data exchange.
+#### FinOps (1)
 
-**Human URL:** [https://arrow.apache.org/docs/format/Columnar.html](https://arrow.apache.org/docs/format/Columnar.html)
+What the API costs to run, by operation.
 
-#### Tags
+- [Apache Arrow Finops](https://apis.io/finops/apache-arrow/apache-arrow-finops/)
 
- - Format, IPC, Specification
+## Where to find this API
 
-#### Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-- [Documentation](https://arrow.apache.org/docs/format/Columnar.html)
-- [Specification](https://arrow.apache.org/docs/format/Versioning.html)
-
-## Common Properties
-
-- [GitHubOrganization](https://github.com/apache)
-- [GitHubRepository (arrow)](https://github.com/apache/arrow)
-- [GitHubRepository (arrow-rs)](https://github.com/apache/arrow-rs)
-- [GitHubRepository (arrow-java)](https://github.com/apache/arrow-java)
-- [GitHubRepository (arrow-go)](https://github.com/apache/arrow-go)
-- [GitHubRepository (arrow-js)](https://github.com/apache/arrow-js)
+- [Website](https://www.apache.org/)
 - [Documentation](https://arrow.apache.org/)
-- [GettingStarted](https://arrow.apache.org/docs/python/getstarted.html)
+- [Getting started](https://arrow.apache.org/docs/python/getstarted.html)
 - [Support](https://arrow.apache.org/community/)
-- [TermsOfService](https://www.apache.org/licenses/)
-- [ChangeLog](https://arrow.apache.org/blog/)
-- [PyArrow (Python)](https://pypi.org/project/pyarrow/)
-- [Apache Arrow Java (Maven)](https://search.maven.org/artifact/org.apache.arrow/arrow-vector)
-- [Arrow-rs (Rust, crates.io)](https://crates.io/crates/arrow)
-- [Arrow Go](https://pkg.go.dev/github.com/apache/arrow/go/v15)
-- [Apache Arrow JavaScript (npm)](https://www.npmjs.com/package/apache-arrow)
+- [Changelog](https://arrow.apache.org/blog/)
+- [Blog](https://arrow.apache.org/feed.xml)
+- [Terms of service](https://www.apache.org/licenses/)
+- [GitHub](https://github.com/apache)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Columnar In-Memory Format | Standardized language-independent columnar memory layout for efficient analytic operations with zero-copy access. |
-| Arrow Flight RPC | High-performance gRPC-based framework for transferring large Arrow datasets between services with minimal serialization overhead. |
-| Flight SQL | Extension of Arrow Flight providing a SQL query execution interface over the Arrow Flight protocol. |
-| Zero-Copy IPC | Inter-process communication via shared memory and memory-mapped files, enabling zero-copy data sharing across process boundaries. |
-| Multi-Language Support | Native libraries for C++, Java, Python, R, Go, Rust, JavaScript, C#, Ruby, Julia, and Swift. |
-| Vectorized Computation | SIMD-optimized compute functions for analytical operations on Arrow arrays and tables. |
-| Parquet Integration | First-class support for reading and writing Apache Parquet files via the Arrow columnar format. |
-| Dataset API | Unified Dataset API for reading partitioned datasets from local filesystems, S3, GCS, and HDFS. |
-| GPU Support | CUDA integration for zero-copy data sharing between CPU and GPU memory via the CUDA Arrow device. |
-| Extension Types | Custom extension types for encoding domain-specific data using the Arrow format. |
+**Kin Score 28.0** — thin · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 52.4 |
+| Access clarity | 18.4 |
 
-| Name | Description |
-|------|-------------|
-| Analytics Data Exchange | Share large analytical datasets between Python, R, Java, and other runtimes without serialization overhead. |
-| Database Query Results | Return query results from databases in Arrow format for fast analytics without Python/Java deserialization. |
-| Data Pipeline Acceleration | Accelerate ETL and data processing pipelines using columnar computation and SIMD optimizations. |
-| Machine Learning Feature Stores | Store and serve ML features in Arrow format for efficient batch and real-time feature retrieval. |
-| High-Throughput Data Services | Build high-throughput data microservices using Arrow Flight for efficient bulk data transfer over gRPC. |
-| Cross-Language Data Sharing | Share in-memory data between Python pandas/polars, Java, and Rust applications with zero-copy semantics. |
+**Agent readiness 0.6** — human-only
 
-## Integrations
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| Apache Parquet | Native read/write support for Parquet columnar file format, the most common big data storage format. |
-| Apache Spark | Spark uses Arrow for Python UDF execution and pandas-on-Spark operations via PyArrow. |
-| pandas | Deep integration with pandas DataFrames via PyArrow's to_pandas() and from_pandas() conversions. |
-| DuckDB | DuckDB uses Arrow as its primary in-memory data format for zero-copy query result exchange. |
-| Polars | Polars DataFrame library is built on Arrow and supports zero-copy interop with Arrow arrays. |
-| ADBC (Arrow Database Connectivity) | Arrow Database Connectivity provides an Arrow-native database driver interface analogous to ODBC/JDBC. |
-| Delta Lake | Delta Lake integrates with Arrow for reading and writing Delta table data in columnar format. |
-| Ray | Ray distributed computing framework uses Arrow for shared-memory object storage between workers. |
+**Regulatory alignment 15.7** — Horizontal (data, software, accessibility, platform)
 
-## Vocabulary
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/apache-arrow/](https://apis.io/providers/apache-arrow/).
 
-- [Apache Arrow Vocabulary](vocabulary/apache-arrow-vocabulary.yaml) — Domain taxonomy mapping 6 resources, 6 actions, and 2 personas for Arrow Flight RPC and in-memory analytics
+## How this profile is made
 
-## Maintainers
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-**FN:** Kin Lane
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Apache Arrow: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-**Email:** info@apievangelist.com
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/apache-arrow/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
